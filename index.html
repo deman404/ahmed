@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>login page</title>
+
+
 </head>
 <body>
-    
+    <header class="animate">
+        <h1>login page</h1>
+        <div class="btn">
+            login
+        </div>
+    </header>
+
+    <div class="login-form fade" id="register-form" >
+        <h2 id="login-title">
+            Register
+        </h2>
+        <form >
+            <input type="text" name="name" placeholder="name" id="name">
+            <input type="text" name="username" placeholder="username">
+            <input type="email" name="email" placeholder="email" id="email">
+            <input type="password" name="password" placeholder="password">
+            <input type="password" name="confirm_password" placeholder="confirm password" id="confirm_password">
+            <button type="submit" id="logBtn">login</button>
+            <a href="#" id="goLogin">login</a>
+            <a href="#" id="goRegister">Register</a>
+
+        </form>
+    </div>
+    <script src="./js/code.js"></script>
+
 </body>
 </html>
