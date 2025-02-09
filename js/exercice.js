@@ -42,5 +42,13 @@ function validateAge() {
 
 //{age >= 1 || age < 18 (nta ba9i sghir) : (mrhba bik rak valide) }
 
+// = / test = 1 type 
+// == / test == 1 tupe et valeur
+// === / test === 1 type et valeur et Qualify
 
+
+var test = 1
+test = 1 // test = test   | hadi bax kan3ti dak var wahd l valeur
+test == 1 //test = test | test = 1 | bax kan9arn m3a hadak l var 
+test === 4 //4 = 1 | test = test | test = number | bax knxof wax dak l var howa nfso 
 
