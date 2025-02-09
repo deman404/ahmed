@@ -32,6 +32,19 @@ goLogin.addEventListener("click", () => {
     goRegister.style.display = "block";
     logBtn.innerHTML = "Login";
 
-
  });
 
+
+
+
+
+
+//js advence
+
+function ahmed({name,age,city}){
+    console.log(name)
+
+    return (
+        `<p>${name}</p>`
+    )
+}
